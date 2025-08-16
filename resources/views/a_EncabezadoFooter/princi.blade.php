@@ -62,6 +62,7 @@
             <!--<link rel="stylesheet" id="frase-style-css" href="./style.css" media="all">-->
             <!-- ... otros meta tags ... -->
             @vite(['public/css/princi.css'])
+            <link rel="stylesheet" href="{{ asset('css/princi.css') }}">
 <!--
 <style>
         :root {
