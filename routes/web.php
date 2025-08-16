@@ -3,5 +3,5 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('a.EncabezadoFooter.princi');
+    return view('a_EncabezadoFooter.princi');
 });
