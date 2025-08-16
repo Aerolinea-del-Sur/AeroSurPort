@@ -60,8 +60,11 @@
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
             <!--<link rel="stylesheet" id="frase-style-css" href="./style.css" media="all">-->
+            <!-- ... otros meta tags ... -->
+            <link rel="stylesheet" href="{{ asset('css/princi.css') }}">
+<!--
 <style>
-:root {
+        :root {
             /* Paleta de colores de lujo */
             --primary-black: #000000;
             --primary-gold: #C9A227;
@@ -1420,7 +1423,7 @@
                 font-size: 12px;
             }
         }
-</style>
+</style> -->
     </head>
     <body>
         <header class="header">
@@ -2214,7 +2217,7 @@
         </div>
         <div class="social-line bottom-line"></div>
     </div>
-    
+<!--
     <style>
         /* Estilos para botones verticales minimalistas de redes sociales */
         .social-sidebar {
@@ -2374,7 +2377,8 @@
             }
         }
 
-    </style>
+    </style> -->
+
 
 
         <!-- WhatsApp Floating Button -->
@@ -2385,7 +2389,7 @@
                 </svg>
             </a>
         </div>
-
+<!-- 
         <style>
             .whatsapp-float {
                 position: fixed;
@@ -2470,6 +2474,6 @@
                     height: 18px;
                 }
             }
-        </style>
+        </style> -->
     </body>
 </html>
