@@ -6,6 +6,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('a_EncabezadoFooter.princi');
 })->name('home');
+// Página principal
+Route::get('/', function () {
+    return view('a_EncabezadoFooter.inicio');
+})->name('inicio');
 
 // Página de nosotros
 Route::get('/nosotros', function () {
