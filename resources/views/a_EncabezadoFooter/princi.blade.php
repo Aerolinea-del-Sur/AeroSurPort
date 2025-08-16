@@ -359,8 +359,6 @@
         </header>
     <!-- Main Content -->
         @yield('content')
-        <section>
-        </section>
     <!-- Footer -->
         <footer class="footer">
                 <div class="footer-container">
