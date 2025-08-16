@@ -61,7 +61,7 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
             <!--<link rel="stylesheet" id="frase-style-css" href="./style.css" media="all">-->
             <!-- ... otros meta tags ... -->
-            <link rel="stylesheet" href="{{ asset('css/princi.css') }}">
+            @vite(['resources/css/princi.css'])
 <!--
 <style>
         :root {
