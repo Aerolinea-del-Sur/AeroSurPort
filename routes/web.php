@@ -2,6 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/a.EncabezadoFooter', function () {
+Route::get('/', function () {
     return view('a.EncabezadoFooter.princi');
 });
