@@ -1,4 +1,4 @@
 @extends('a_EncabezadoFooter.princi')
 @section('content')
-Hola soy el medio
+<h1>Hola soy el medio</h1>
 @endsection
