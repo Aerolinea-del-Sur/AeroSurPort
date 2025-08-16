@@ -1724,144 +1724,758 @@
 
             </section>
             <!-- Footer -->
-            <footer class="site-footer">
-                <div class="container">
-                    <div class="footer-grid">
-                        <!-- Sección Navegación -->
-                        <div class="footer-section">
-                            <h5>NAVEGACIÓN</h5>
-                            <ul class="footer-links">
-                                <li><a href="/"><i class="fas fa-home"></i> INICIO</a></li>
-                                <li><a href="/nosotros"><i class="fas fa-users"></i> SOBRE NOSOTROS</a></li>
-                                <li><a href="/servicios"><i class="fas fa-concierge-bell"></i> SERVICIOS</a></li>
-                                <li><a href="/contact"><i class="fas fa-envelope"></i> CONTACTO</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- Sección Legal -->
-                        <div class="footer-section">
-                            <h5>LEGAL</h5>
-                            <ul class="footer-links">
-                                <li><a href="/Privacidad"><i class="fas fa-shield-alt"></i> Política de Privacidad</a></li>
-                                <li><a href="/Terminos"><i class="fas fa-file-contract"></i> Términos de Servicio</a></li>
-                                <li><a href="#"><i class="fas fa-certificate"></i> Certificaciones</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- Sección Contacto -->
-                        <div class="footer-section">
-                            <h5>CONTACTO</h5>
-                            <ul class="footer-contact">
-                                <li>
-                                    <a href="mailto:info@russellexperienceperutravel.com">info@russellexperienceperutravel.com</a>
-                                </li>
-                                <li>
-                                    <a href="https://goo.gl/maps/xyz" target="_blank">Urb. LA PLANICIE E19, Cusco 08006</a>
-                                </li>
-                                <li>
-                                    <a href="tel:+51946033024">+51 946 033 024</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- Sección Redes Sociales y Reclamos -->
-                        <div class="footer-section">
-                            <h5 class="horario-title"><i></i> HORARIO DE ATENCIÓN</h5>
-                            <ul class="horario-list">
-                                <li>Lunes a Sábado: 09:00 - 19:00</li>
-                                <li>Domingo: 09:00 - 13:00</li>
-                            </ul>
-                            
-                            <div class="reclamo-btn-container">
-                                <a href="/libro" class="reclamo-btn" target="_blank" aria-label="Libro de reclamaciones">
-                                    <img src="img/libro/libro.png" alt="Libro de Reclamaciones" width="180">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Copyright -->
-                    <div class="footer-copyright">
-                        <p>&copy; <span id="current-year"></span> RUSSELL EXPERIENCE. Todos los derechos reservados.</p>
-                        <p class="dev-credit">Desarrollado por <a href="#" target="_blank">TuAgenciaDigital</a></p>
+            
+    <!-- Premium Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="footer-logo">Frase</div>
+                    <p class="footer-tagline">The future of content creation is here. Build, optimize, and scale your SEO strategy with AI-powered precision.</p>
+                    
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                                <polygon points="9.75,15.02 15.5,11.75 9.75,8.48"></polygon>
+                            </svg>
+                        </a>
                     </div>
                 </div>
-            </footer>
-        </form>
 
-                    {{-- Dark Mode 12 SVG --}}
-                    <svg class="w-[448px] max-w-none relative -mt-[4.9rem] -ml-8 lg:ml-0 lg:-mt-[6.6rem] hidden dark:block" viewBox="0 0 440 376" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g class="transition-all delay-300 translate-y-0 opacity-100 duration-750 starting:opacity-0 starting:translate-y-4">
-                            <path d="M188.263 355.73L188.595 355.73C195.441 348.845 205.766 339.761 219.569 328.477C232.93 317.193 242.978 308.205 249.714 301.511C256.34 294.626 260.867 287.358 263.296 279.708C265.725 272.058 264.565 264.121 259.816 255.896C254.516 246.716 247.062 239.352 237.454 233.805C227.957 228.067 217.908 225.198 207.307 225.198C196.927 225.197 190.136 227.97 186.934 233.516C183.621 238.872 184.726 246.331 190.247 255.894L125.647 255.891C116.371 239.825 112.395 225.481 113.72 212.858C115.265 200.235 121.559 190.481 132.602 183.596C143.754 176.52 158.607 172.982 177.159 172.983C196.594 172.984 215.863 176.523 234.968 183.6C253.961 190.486 271.299 200.241 286.98 212.864C302.661 225.488 315.14 239.833 324.416 255.899C333.03 270.817 336.841 283.918 335.847 295.203C335.075 306.487 331.376 316.336 324.75 324.751C318.346 333.167 308.408 343.494 294.936 355.734L377.094 355.737L405.917 405.656L217.087 405.649L188.263 355.73Z" fill="black"/>
-                            <path d="M9.11884 226.339L-13.7396 226.338L-42.7286 176.132L43.0733 176.135L175.595 405.649L112.651 405.647L9.11884 226.339Z" fill="black"/>
-                            <path d="M188.263 355.73L188.595 355.73C195.441 348.845 205.766 339.761 219.569 328.477C232.93 317.193 242.978 308.205 249.714 301.511C256.34 294.626 260.867 287.358 263.296 279.708C265.725 272.058 264.565 264.121 259.816 255.896C254.516 246.716 247.062 239.352 237.454 233.805C227.957 228.067 217.908 225.198 207.307 225.198C196.927 225.197 190.136 227.97 186.934 233.516C183.621 238.872 184.726 246.331 190.247 255.894L125.647 255.891C116.371 239.825 112.395 225.481 113.72 212.858C115.265 200.235 121.559 190.481 132.602 183.596C143.754 176.52 158.607 172.982 177.159 172.983C196.594 172.984 215.863 176.523 234.968 183.6C253.961 190.486 271.299 200.241 286.98 212.864C302.661 225.488 315.14 239.833 324.416 255.899C333.03 270.817 336.841 283.918 335.847 295.203C335.075 306.487 331.376 316.336 324.75 324.751C318.346 333.167 308.408 343.494 294.936 355.734L377.094 355.737L405.917 405.656L217.087 405.649L188.263 355.73Z" stroke="#FF750F" stroke-width="1"/>
-                            <path d="M9.11884 226.339L-13.7396 226.338L-42.7286 176.132L43.0733 176.135L175.595 405.649L112.651 405.647L9.11884 226.339Z" stroke="#FF750F" stroke-width="1"/>
-                            <path d="M204.592 327.449L204.923 327.449C211.769 320.564 222.094 311.479 235.897 300.196C249.258 288.912 259.306 279.923 266.042 273.23C272.668 266.345 277.195 259.077 279.624 251.427C282.053 243.777 280.893 235.839 276.145 227.615C270.844 218.435 263.39 211.071 253.782 205.524C244.285 199.786 234.236 196.917 223.635 196.916C213.255 196.916 206.464 199.689 203.262 205.235C199.949 210.59 201.054 218.049 206.575 227.612L141.975 227.61C132.699 211.544 128.723 197.2 130.048 184.577C131.593 171.954 137.887 162.2 148.93 155.315C160.083 148.239 174.935 144.701 193.487 144.702C212.922 144.703 232.192 148.242 251.296 155.319C270.289 162.205 287.627 171.96 303.308 184.583C318.989 197.207 331.468 211.552 340.745 227.618C349.358 242.536 353.169 255.637 352.175 266.921C351.403 278.205 347.704 288.055 341.078 296.47C334.674 304.885 324.736 315.213 311.264 327.453L393.422 327.456L422.246 377.375L233.415 377.368L204.592 327.449Z" fill="#391800"/>
-                            <path d="M25.447 198.058L2.58852 198.057L-26.4005 147.851L59.4015 147.854L191.923 377.368L128.979 377.365L25.447 198.058Z" fill="#391800"/>
-                            <path d="M204.592 327.449L204.923 327.449C211.769 320.564 222.094 311.479 235.897 300.196C249.258 288.912 259.306 279.923 266.042 273.23C272.668 266.345 277.195 259.077 279.624 251.427C282.053 243.777 280.893 235.839 276.145 227.615C270.844 218.435 263.39 211.071 253.782 205.524C244.285 199.786 234.236 196.917 223.635 196.916C213.255 196.916 206.464 199.689 203.262 205.235C199.949 210.59 201.054 218.049 206.575 227.612L141.975 227.61C132.699 211.544 128.723 197.2 130.048 184.577C131.593 171.954 137.887 162.2 148.93 155.315C160.083 148.239 174.935 144.701 193.487 144.702C212.922 144.703 232.192 148.242 251.296 155.319C270.289 162.205 287.627 171.96 303.308 184.583C318.989 197.207 331.468 211.552 340.745 227.618C349.358 242.536 353.169 255.637 352.175 266.921C351.403 278.205 347.704 288.055 341.078 296.47C334.674 304.885 324.736 315.213 311.264 327.453L393.422 327.456L422.246 377.375L233.415 377.368L204.592 327.449Z" stroke="#FF750F" stroke-width="1"/>
-                            <path d="M25.447 198.058L2.58852 198.057L-26.4005 147.851L59.4015 147.854L191.923 377.368L128.979 377.365L25.447 198.058Z" stroke="#FF750F" stroke-width="1"/>
-                        </g>
-                        <g class="transition-all delay-300 translate-y-0 opacity-100 duration-750 starting:opacity-0 starting:translate-y-4" style="mix-blend-mode:hard-light">
-                            <path d="M217.342 305.363L217.673 305.363C224.519 298.478 234.844 289.393 248.647 278.11C262.008 266.826 272.056 257.837 278.792 251.144C285.418 244.259 289.945 236.991 292.374 229.341C294.803 221.691 293.643 213.753 288.895 205.529C283.594 196.349 276.14 188.985 266.532 183.438C257.035 177.7 246.986 174.831 236.385 174.83C226.005 174.83 219.214 177.603 216.012 183.149C212.699 188.504 213.804 195.963 219.325 205.527L154.725 205.524C145.449 189.458 141.473 175.114 142.798 162.491C144.343 149.868 150.637 140.114 161.68 133.229C172.833 126.153 187.685 122.615 206.237 122.616C225.672 122.617 244.942 126.156 264.046 133.233C283.039 140.119 300.377 149.874 316.058 162.497C331.739 175.121 344.218 189.466 353.495 205.532C362.108 220.45 365.919 233.551 364.925 244.835C364.153 256.12 360.454 265.969 353.828 274.384C347.424 282.799 337.486 293.127 324.014 305.367L406.172 305.37L434.996 355.289L246.165 355.282L217.342 305.363Z" fill="#733000"/>
-                            <path d="M38.197 175.972L15.3385 175.971L-13.6505 125.765L72.1515 125.768L204.673 355.282L141.729 355.279L38.197 175.972Z" fill="#733000"/>
-                            <path d="M217.342 305.363L217.673 305.363C224.519 298.478 234.844 289.393 248.647 278.11C262.008 266.826 272.056 257.837 278.792 251.144C285.418 244.259 289.945 236.991 292.374 229.341C294.803 221.691 293.643 213.753 288.895 205.529C283.594 196.349 276.14 188.985 266.532 183.438C257.035 177.7 246.986 174.831 236.385 174.83C226.005 174.83 219.214 177.603 216.012 183.149C212.699 188.504 213.804 195.963 219.325 205.527L154.725 205.524C145.449 189.458 141.473 175.114 142.798 162.491C144.343 149.868 150.637 140.114 161.68 133.229C172.833 126.153 187.685 122.615 206.237 122.616C225.672 122.617 244.942 126.156 264.046 133.233C283.039 140.119 300.377 149.874 316.058 162.497C331.739 175.121 344.218 189.466 353.495 205.532C362.108 220.45 365.919 233.551 364.925 244.835C364.153 256.12 360.454 265.969 353.828 274.384C347.424 282.799 337.486 293.127 324.014 305.367L406.172 305.37L434.996 355.289L246.165 355.282L217.342 305.363Z" stroke="#FF750F" stroke-width="1"/>
-                            <path d="M38.197 175.972L15.3385 175.971L-13.6505 125.765L72.1515 125.768L204.673 355.282L141.729 355.279L38.197 175.972Z" stroke="#FF750F" stroke-width="1"/>
-                        </g>
-                        <g class="transition-all delay-300 translate-y-0 opacity-100 duration-750 starting:opacity-0 starting:translate-y-4">
-                            <path d="M217.342 305.363L217.673 305.363C224.519 298.478 234.844 289.393 248.647 278.11C262.008 266.826 272.056 257.837 278.792 251.144C285.418 244.259 289.945 236.991 292.374 229.341C294.803 221.691 293.643 213.753 288.895 205.529C283.594 196.349 276.14 188.985 266.532 183.438C257.035 177.7 246.986 174.831 236.385 174.83C226.005 174.83 219.214 177.603 216.012 183.149C212.699 188.504 213.804 195.963 219.325 205.527L154.726 205.524C145.449 189.458 141.473 175.114 142.798 162.491C144.343 149.868 150.637 140.114 161.68 133.229C172.833 126.153 187.685 122.615 206.237 122.616C225.672 122.617 244.942 126.156 264.046 133.233C283.039 140.119 300.377 149.874 316.058 162.497C331.739 175.121 344.218 189.466 353.495 205.532C362.108 220.45 365.919 233.551 364.925 244.835C364.153 256.12 360.454 265.969 353.828 274.384C347.424 282.799 337.486 293.127 324.014 305.367L406.172 305.37L434.996 355.289L246.165 355.282L217.342 305.363Z" stroke="#FF750F" stroke-width="1"/>
-                            <path d="M38.197 175.972L15.3385 175.971L-13.6505 125.765L72.1515 125.768L204.673 355.282L141.729 355.279L38.197 175.972Z" stroke="#FF750F" stroke-width="1"/>
-                        </g>
-                        <g class="transition-all delay-300 translate-y-0 opacity-100 duration-750 starting:opacity-0 starting:translate-y-4">
-                            <path d="M188.467 355.363L188.798 355.363C195.644 348.478 205.969 339.393 219.772 328.11C233.133 316.826 243.181 307.837 249.917 301.144C253.696 297.217 256.792 293.166 259.205 288.991C261.024 285.845 262.455 282.628 263.499 279.341C265.928 271.691 264.768 263.753 260.02 255.529C254.719 246.349 247.265 238.985 237.657 233.438C228.16 227.7 218.111 224.831 207.51 224.83C197.13 224.83 190.339 227.603 187.137 233.149C183.824 238.504 184.929 245.963 190.45 255.527L125.851 255.524C116.574 239.458 112.598 225.114 113.923 212.491C114.615 206.836 116.261 201.756 118.859 197.253C122.061 191.704 126.709 187.03 132.805 183.229C143.958 176.153 158.81 172.615 177.362 172.616C196.797 172.617 216.067 176.156 235.171 183.233C254.164 190.119 271.502 199.874 287.183 212.497C302.864 225.121 315.343 239.466 324.62 255.532C333.233 270.45 337.044 283.551 336.05 294.835C335.46 303.459 333.16 311.245 329.151 318.194C327.915 320.337 326.515 322.4 324.953 324.384C318.549 332.799 308.611 343.127 295.139 355.367L377.297 355.37L406.121 405.289L217.29 405.282L188.467 355.363Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M9.32197 225.972L-13.5365 225.971L-42.5255 175.765L43.2765 175.768L175.798 405.282L112.854 405.279L9.32197 225.972Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M345.247 111.915C329.566 99.2919 312.229 89.5371 293.235 82.6512L235.167 183.228C254.161 190.114 271.498 199.869 287.179 212.492L345.247 111.915Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M382.686 154.964C373.41 138.898 360.931 124.553 345.25 111.93L287.182 212.506C302.863 225.13 315.342 239.475 324.618 255.541L382.686 154.964Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M293.243 82.6472C274.139 75.57 254.869 72.031 235.434 72.0303L177.366 172.607C196.801 172.608 216.071 176.147 235.175 183.224L293.243 82.6472Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M394.118 194.257C395.112 182.973 391.301 169.872 382.688 154.953L324.619 255.53C333.233 270.448 337.044 283.55 336.05 294.834L394.118 194.257Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M235.432 72.0311C216.88 72.0304 202.027 75.5681 190.875 82.6442L132.806 183.221C143.959 176.145 158.812 172.607 177.363 172.608L235.432 72.0311Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M265.59 124.25C276.191 124.251 286.24 127.12 295.737 132.858L237.669 233.435C228.172 227.697 218.123 224.828 207.522 224.827L265.59 124.25Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M295.719 132.859C305.326 138.406 312.78 145.77 318.081 154.95L260.013 255.527C254.712 246.347 247.258 238.983 237.651 233.436L295.719 132.859Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M387.218 217.608C391.227 210.66 393.527 202.874 394.117 194.25L336.049 294.827C335.459 303.451 333.159 311.237 329.15 318.185L387.218 217.608Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M245.211 132.577C248.413 127.03 255.204 124.257 265.584 124.258L207.516 224.835C197.136 224.834 190.345 227.607 187.143 233.154L245.211 132.577Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M318.094 154.945C322.842 163.17 324.002 171.107 321.573 178.757L263.505 279.334C265.934 271.684 264.774 263.746 260.026 255.522L318.094 154.945Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M176.925 96.6737C180.127 91.1249 184.776 86.4503 190.871 82.6499L132.803 183.227C126.708 187.027 122.059 191.702 118.857 197.25L176.925 96.6737Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M387.226 217.606C385.989 219.749 384.59 221.813 383.028 223.797L324.96 324.373C326.522 322.39 327.921 320.326 329.157 318.183L387.226 217.606Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M317.269 188.408C319.087 185.262 320.519 182.045 321.562 178.758L263.494 279.335C262.451 282.622 261.019 285.839 259.201 288.985L317.269 188.408Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M245.208 132.573C241.895 137.928 243 145.387 248.522 154.95L190.454 255.527C184.932 245.964 183.827 238.505 187.14 233.15L245.208 132.573Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M176.93 96.6719C174.331 101.175 172.686 106.255 171.993 111.91L113.925 212.487C114.618 206.831 116.263 201.752 118.862 197.249L176.93 96.6719Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M317.266 188.413C314.853 192.589 311.757 196.64 307.978 200.566L249.91 301.143C253.689 297.216 256.785 293.166 259.198 288.99L317.266 188.413Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M464.198 304.708L435.375 254.789L377.307 355.366L406.13 405.285L464.198 304.708Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M353.209 254.787C366.68 242.548 376.618 232.22 383.023 223.805L324.955 324.382C318.55 332.797 308.612 343.124 295.141 355.364L353.209 254.787Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M435.37 254.787L353.212 254.784L295.144 355.361L377.302 355.364L435.37 254.787Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M183.921 154.947L248.521 154.95L190.453 255.527L125.853 255.524L183.921 154.947Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M171.992 111.914C170.668 124.537 174.643 138.881 183.92 154.947L125.852 255.524C116.575 239.458 112.599 225.114 113.924 212.491L171.992 111.914Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M307.987 200.562C301.251 207.256 291.203 216.244 277.842 227.528L219.774 328.105C233.135 316.821 243.183 307.832 249.919 301.139L307.987 200.562Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M15.5469 75.1797L44.5359 125.386L-13.5321 225.963L-42.5212 175.756L15.5469 75.1797Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M277.836 227.536C264.033 238.82 253.708 247.904 246.862 254.789L188.794 355.366C195.64 348.481 205.965 339.397 219.768 328.113L277.836 227.536Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M275.358 304.706L464.189 304.713L406.12 405.29L217.29 405.283L275.358 304.706Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M44.5279 125.39L67.3864 125.39L9.31834 225.967L-13.5401 225.966L44.5279 125.39Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M101.341 75.1911L233.863 304.705L175.795 405.282L43.2733 175.768L101.341 75.1911ZM15.5431 75.19L-42.525 175.767L43.277 175.77L101.345 75.1932L15.5431 75.19Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M246.866 254.784L246.534 254.784L188.466 355.361L188.798 355.361L246.866 254.784Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M246.539 254.781L275.362 304.701L217.294 405.277L188.471 355.358L246.539 254.781Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M67.3906 125.391L170.923 304.698L112.855 405.275L9.32257 225.967L67.3906 125.391Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                            <path d="M170.921 304.699L233.865 304.701L175.797 405.278L112.853 405.276L170.921 304.699Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="bevel"/>
-                        </g>
-                        <g class="transition-all delay-300 translate-y-0 opacity-100 duration-750 starting:opacity-0 starting:translate-y-4" style="mix-blend-mode:hard-light">
-                            <path d="M246.544 254.79L246.875 254.79C253.722 247.905 264.046 238.82 277.849 227.537C291.21 216.253 301.259 207.264 307.995 200.57C314.62 193.685 319.147 186.418 321.577 178.768C324.006 171.117 322.846 163.18 318.097 154.956C312.796 145.775 305.342 138.412 295.735 132.865C286.238 127.127 276.189 124.258 265.588 124.257C255.208 124.257 248.416 127.03 245.214 132.576C241.902 137.931 243.006 145.39 248.528 154.953L183.928 154.951C174.652 138.885 170.676 124.541 172 111.918C173.546 99.2946 179.84 89.5408 190.882 82.6559C202.035 75.5798 216.887 72.0421 235.439 72.0428C254.874 72.0435 274.144 75.5825 293.248 82.6598C312.242 89.5457 329.579 99.3005 345.261 111.924C360.942 124.548 373.421 138.892 382.697 154.958C391.311 169.877 395.121 182.978 394.128 194.262C393.355 205.546 389.656 215.396 383.031 223.811C376.627 232.226 366.688 242.554 353.217 254.794L435.375 254.797L464.198 304.716L275.367 304.709L246.544 254.79Z" fill="#4B0600"/>
-                            <path d="M246.544 254.79L246.875 254.79C253.722 247.905 264.046 238.82 277.849 227.537C291.21 216.253 301.259 207.264 307.995 200.57C314.62 193.685 319.147 186.418 321.577 178.768C324.006 171.117 322.846 163.18 318.097 154.956C312.796 145.775 305.342 138.412 295.735 132.865C286.238 127.127 276.189 124.258 265.588 124.257C255.208 124.257 248.416 127.03 245.214 132.576C241.902 137.931 243.006 145.39 248.528 154.953L183.928 154.951C174.652 138.885 170.676 124.541 172 111.918C173.546 99.2946 179.84 89.5408 190.882 82.6559C202.035 75.5798 216.887 72.0421 235.439 72.0428C254.874 72.0435 274.144 75.5825 293.248 82.6598C312.242 89.5457 329.579 99.3005 345.261 111.924C360.942 124.548 373.421 138.892 382.697 154.958C391.311 169.877 395.121 182.978 394.128 194.262C393.355 205.546 389.656 215.396 383.031 223.811C376.627 232.226 366.688 242.554 353.217 254.794L435.375 254.797L464.198 304.716L275.367 304.709L246.544 254.79Z" stroke="#FF750F" stroke-width="1" stroke-linejoin="round"/>
-                        </g>
-                        <g class="transition-all delay-300 translate-y-0 opacity-100 duration-750 starting:opacity-0 starting:translate-y-4" style="mix-blend-mode:hard-light">
-                            <path d="M67.41 125.402L44.5515 125.401L15.5625 75.1953L101.364 75.1985L233.886 304.712L170.942 304.71L67.41 125.402Z" fill="#4B0600"/>
-                            <path d="M67.41 125.402L44.5515 125.401L15.5625 75.1953L101.364 75.1985L233.886 304.712L170.942 304.71L67.41 125.402Z" stroke="#FF750F" stroke-width="1"/>
-                        </g>
-                    </svg>
-                    <div class="absolute inset-0 rounded-t-lg lg:rounded-t-none lg:rounded-r-lg shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]"></div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 class="footer-title">Product</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">AI Writer</a></li>
+                            <li><a href="#" class="footer-link">SEO Tools</a></li>
+                            <li><a href="#" class="footer-link">Analytics</a></li>
+                            <li><a href="#" class="footer-link">Integrations</a></li>
+                            <li><a href="#" class="footer-link">API</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">Solutions</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Agencies</a></li>
+                            <li><a href="#" class="footer-link">Enterprise</a></li>
+                            <li><a href="#" class="footer-link">Freelancers</a></li>
+                            <li><a href="#" class="footer-link">E-commerce</a></li>
+                            <li><a href="#" class="footer-link">SaaS</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">Resources</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Blog</a></li>
+                            <li><a href="#" class="footer-link">Case Studies</a></li>
+                            <li><a href="#" class="footer-link">Help Center</a></li>
+                            <li><a href="#" class="footer-link">Webinars</a></li>
+                            <li><a href="#" class="footer-link">Templates</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">Servicios</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Vuelos Privados</a></li>
+                            <li><a href="#" class="footer-link">Conexiones Regionales</a></li>
+                            <li><a href="#" class="footer-link">Carga Aérea</a></li>
+                            <li><a href="#" class="footer-link">Nosotros</a></li>
+                            <li><a href="#" class="footer-link">Políticas</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">Legal</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Code Esnna</a></li>
+                            <li><a href="#" class="footer-link">Métodos de Pago</a></li>
+                            <li><a href="#" class="footer-link">Políticas de Privacidad</a></li>
+                            <li><a href="#" class="footer-link">Términos y Condiciones</a></li>
+                            <li><a href="#" class="footer-link">Contáctanos</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </main>
+            </div>
+
+            <!-- Newsletter Subscription -->
+            <div class="footer-newsletter">
+                <div class="newsletter-content">
+                    <div class="newsletter-text">
+                        <h3>Stay ahead of the curve</h3>
+                        <p>Get the latest SEO insights, product updates, and growth strategies delivered to your inbox.</p>
+                    </div>
+                    <div class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" placeholder="Enter your email" class="newsletter-input">
+                            <button class="newsletter-btn">
+                                <span>Subscribe</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12,5 19,12 12,19"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                        <p class="newsletter-disclaimer">No spam. Unsubscribe at any time.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p class="copyright">&copy; 2025 Frase. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="#" class="legal-link">Privacy Policy</a>
+                        <a href="#" class="legal-link">Terms of Service</a>
+                        <a href="#" class="legal-link">Cookie Settings</a>
+                        <a href="#" class="legal-link">GDPR</a>
+                    </div>
+                </div>
+                
+                <div class="footer-badges">
+                    <div class="badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        <span>SOC 2 Compliant</span>
+                    </div>
+                    <div class="badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <circle cx="12" cy="16" r="1"></circle>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                        <span>256-bit SSL</span>
+                    </div>
+                </div>
+            </div>
         </div>
+    </footer>
 
-        @if (Route::has('login'))
-            <div class="h-14.5 hidden lg:block"></div>
-        @endif
+    <script>
+        class CertificationSlider {
+            constructor() {
+                this.currentSlide = 0;
+                this.slidesPerPage = this.calculateSlidesPerPage();
+                this.totalSlides = document.querySelectorAll('.certification-item').length;
+                this.isTransitioning = false;
+                this.init();
+            }
+
+            calculateSlidesPerPage() {
+                const viewport = document.querySelector('.certificaciones-viewport');
+                if (!viewport) return 3;
+                
+                const viewportWidth = viewport.offsetWidth;
+                const itemWidth = 210; // 160px + 50px margin
+                return Math.floor(viewportWidth / itemWidth);
+            }
+
+            init() {
+                this.createPagination();
+                this.updateSlider();
+                this.bindEvents();
+                
+                // Handle window resize
+                window.addEventListener('resize', () => {
+                    this.slidesPerPage = this.calculateSlidesPerPage();
+                    this.createPagination();
+                    this.updateSlider();
+                });
+            }
+
+            createPagination() {
+                const pagination = document.querySelector('.cert-pagination');
+                if (!pagination) return;
+                
+                pagination.innerHTML = '';
+                const totalPages = Math.ceil(this.totalSlides / this.slidesPerPage);
+                
+                for (let i = 0; i < totalPages; i++) {
+                    const dot = document.createElement('div');
+                    dot.className = 'dot';
+                    if (i === Math.floor(this.currentSlide / this.slidesPerPage)) {
+                        dot.classList.add('active');
+                    }
+                    dot.addEventListener('click', () => {
+                        this.goToSlide(i * this.slidesPerPage);
+                    });
+                    pagination.appendChild(dot);
+                }
+            }
+
+            updateSlider() {
+                const track = document.querySelector('.certificaciones-track');
+                if (!track) return;
+                
+                const itemWidth = 210; // 160px + 50px margin
+                const translateX = -this.currentSlide * itemWidth;
+                track.style.transform = `translateX(${translateX}px)`;
+                
+                // Update pagination
+                const dots = document.querySelectorAll('.cert-pagination .dot');
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === Math.floor(this.currentSlide / this.slidesPerPage));
+                });
+            }
+
+            goToSlide(slideIndex) {
+                if (this.isTransitioning) return;
+                this.currentSlide = slideIndex;
+                this.updateSlider();
+            }
+
+            nextSlide() {
+                if (this.isTransitioning) return;
+                
+                this.isTransitioning = true;
+                this.currentSlide++;
+                
+                // Si llegamos al final, volver al inicio (bucle infinito)
+                if (this.currentSlide >= this.totalSlides) {
+                    this.currentSlide = 0;
+                }
+                
+                this.updateSlider();
+                
+                // Reset transition flag
+                setTimeout(() => {
+                    this.isTransitioning = false;
+                }, 400); // Match CSS transition duration
+            }
+
+            prevSlide() {
+                if (this.isTransitioning) return;
+                
+                this.isTransitioning = true;
+                this.currentSlide--;
+                
+                // Si llegamos al inicio, ir al final (bucle infinito)
+                if (this.currentSlide < 0) {
+                    this.currentSlide = this.totalSlides - 1;
+                }
+                
+                this.updateSlider();
+                
+                // Reset transition flag
+                setTimeout(() => {
+                    this.isTransitioning = false;
+                }, 400); // Match CSS transition duration
+            }
+
+            bindEvents() {
+                const prevBtn = document.getElementById('cert-prev');
+                const nextBtn = document.getElementById('cert-next');
+                
+                if (prevBtn) {
+                    prevBtn.addEventListener('click', () => {
+                        this.prevSlide();
+                    });
+                }
+                
+                if (nextBtn) {
+                    nextBtn.addEventListener('click', () => {
+                        this.nextSlide();
+                    });
+                }
+            }
+        }
+
+        // Initialize slider when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new CertificationSlider();
+            new ToursSlider();
+        });
+
+        // Tours Slider Class with Group Navigation
+        class ToursSlider {
+            constructor() {
+                this.slider = document.getElementById('tours-slider');
+                this.pagination = document.getElementById('tours-pagination');
+                this.cards = this.slider ? this.slider.children : [];
+                this.totalCards = this.cards.length;
+                this.groupSize = 3; // Siempre mover de 3 en 3
+                this.currentIndex = 0;
+                this.isTransitioning = false;
+                
+                if (this.slider && this.totalCards > 0) {
+                    this.init();
+                }
+            }
+            
+            getVisibleCards() {
+                const width = window.innerWidth;
+                if (width <= 480) return 1;
+                if (width <= 768) return 1;
+                if (width <= 1024) return 2;
+                if (width <= 1200) return 2;
+                return 3;
+            }
+            
+            init() {
+                this.createPagination();
+                this.updateSlider();
+                this.bindEvents();
+            }
+            
+            createPagination() {
+                if (!this.pagination) return;
+                
+                // Calcular número de grupos
+                const totalGroups = Math.ceil(this.totalCards / this.groupSize);
+                
+                this.pagination.innerHTML = '';
+                for (let i = 0; i < totalGroups; i++) {
+                    const dot = document.createElement('span');
+                    dot.classList.add('dot');
+                    if (i === 0) dot.classList.add('active');
+                    dot.addEventListener('click', () => this.goToGroup(i));
+                    this.pagination.appendChild(dot);
+                }
+            }
+            
+            updateSlider() {
+                if (!this.slider || this.isTransitioning) return;
+                
+                // Responsive card width calculation
+                const width = window.innerWidth;
+                let cardWidth, margin;
+                
+                if (width <= 360) {
+                    cardWidth = 220;
+                    margin = 20; // 10px each side
+                } else if (width <= 480) {
+                    cardWidth = 250;
+                    margin = 24; // 12px each side
+                } else if (width <= 768) {
+                    cardWidth = 280;
+                    margin = 30; // 15px each side
+                } else if (width <= 1024) {
+                    cardWidth = 320;
+                    margin = 36; // 18px each side
+                } else if (width <= 1200) {
+                    cardWidth = 340;
+                    margin = 40; // 20px each side
+                } else {
+                    cardWidth = 370;
+                    margin = 50; // 25px each side
+                }
+                
+                const totalCardWidth = cardWidth + margin;
+                const translateX = -this.currentIndex * totalCardWidth;
+                this.slider.style.transform = `translateX(${translateX}px)`;
+                
+                // Update pagination
+                const currentGroup = Math.floor(this.currentIndex / this.groupSize);
+                const dots = this.pagination ? this.pagination.querySelectorAll('.dot') : [];
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentGroup);
+                });
+            }
+            
+            goToGroup(groupIndex) {
+                if (this.isTransitioning) return;
+                
+                this.currentIndex = groupIndex * this.groupSize;
+                // Asegurar que no exceda el número total de tarjetas
+                if (this.currentIndex >= this.totalCards) {
+                    this.currentIndex = this.totalCards - 1;
+                }
+                this.updateSlider();
+            }
+            
+            nextGroup() {
+                if (this.isTransitioning) return;
+                
+                this.isTransitioning = true;
+                
+                // Mover 3 posiciones hacia adelante
+                this.currentIndex += this.groupSize;
+                
+                // Si excede el total, volver al inicio (bucle)
+                if (this.currentIndex >= this.totalCards) {
+                    this.currentIndex = 0;
+                }
+                
+                this.updateSlider();
+                
+                setTimeout(() => {
+                    this.isTransitioning = false;
+                }, 600); // Match CSS transition duration
+            }
+            
+            prevGroup() {
+                if (this.isTransitioning) return;
+                
+                this.isTransitioning = true;
+                
+                // Mover 3 posiciones hacia atrás
+                this.currentIndex -= this.groupSize;
+                
+                // Si es menor que 0, ir al final (bucle)
+                if (this.currentIndex < 0) {
+                    // Calcular la última posición válida
+                    const totalGroups = Math.ceil(this.totalCards / this.groupSize);
+                    this.currentIndex = (totalGroups - 1) * this.groupSize;
+                }
+                
+                this.updateSlider();
+                
+                setTimeout(() => {
+                    this.isTransitioning = false;
+                }, 600);
+            }
+            
+            // Métodos de autoplay removidos - ahora solo navegación manual
+            
+            bindEvents() {
+                // Handle window resize
+                window.addEventListener('resize', () => {
+                    this.updateSlider();
+                });
+            }
+        }
+
+        // Función para actualizar las imágenes de certificaciones
+        function updateCertificationImages(imageMap) {
+            Object.keys(imageMap).forEach(certKey => {
+                const certItem = document.querySelector(`[data-cert="${certKey}"]`);
+                if (certItem) {
+                    const img = certItem.querySelector('img');
+                    if (img && imageMap[certKey]) {
+                        img.src = imageMap[certKey];
+                        img.removeAttribute('data-original-src');
+                    }
+                }
+            });
+        }
+
+        // Ejemplo de uso (descomentar y modificar cuando tengas las imágenes reales):
+        /*
+        const certificationImages = {
+            'iata': 'path/to/real/iata-logo.png',
+            'icao': 'path/to/real/icao-logo.png',
+            'iso9001': 'path/to/real/iso9001-logo.png',
+            'iosa': 'path/to/real/iosa-logo.png',
+            'anac': 'path/to/real/anac-logo.png',
+            'skytrax': 'path/to/real/skytrax-logo.png',
+            'apex': 'path/to/real/apex-logo.png',
+            'greensky': 'path/to/real/greensky-logo.png'
+        };
+        
+        // Llamar esta función cuando tengas las imágenes reales
+        window.addEventListener('load', () => {
+            updateCertificationImages(certificationImages);
+        });
+        */
+    </script>
+
+    <!-- Botones Verticales de Redes Sociales -->
+    <div class="social-sidebar">
+        <div class="social-line top-line"></div>
+        <div class="social-buttons-vertical">
+            <a href="https://facebook.com" target="_blank" class="social-btn-minimal facebook" title="Facebook">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="social-btn-minimal instagram" title="Instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+            </a>
+            <a href="https://tiktok.com" target="_blank" class="social-btn-minimal tiktok" title="TikTok">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-.88-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-.04-.1z"/>
+                </svg>
+            </a>
+            <a href="https://tripadvisor.com" target="_blank" class="social-btn-minimal tripadvisor" title="TripAdvisor">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.5 3.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5S9 7.83 9 7s.67-1.5 1.5-1.5zm3 0c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5S12 7.83 12 7s.67-1.5 1.5-1.5zM12 18.5c-2.5 0-4.71-1.28-6-3.22.65-.14 1.29-.28 2-.28 1.5 0 2.5 1 4 1s2.5-1 4-1c.71 0 1.35.14 2 .28-1.29 1.94-3.5 3.22-6 3.22z"/>
+                    <circle cx="8.5" cy="12" r="1.5"/>
+                    <circle cx="15.5" cy="12" r="1.5"/>
+                </svg>
+            </a>
+        </div>
+        <div class="social-line bottom-line"></div>
+    </div>
+
+    <style>
+        /* Estilos para botones verticales minimalistas de redes sociales */
+        .social-sidebar {
+            position: fixed;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+        }
+
+        .social-line {
+            width: 2px;
+            background: linear-gradient(180deg, var(--accent) 0%, var(--accent-light) 100%);
+            opacity: 0.6;
+        }
+
+        .social-line.top-line {
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        .social-line.bottom-line {
+            height: 80px;
+            margin-top: 20px;
+        }
+
+        .social-buttons-vertical {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .social-btn-minimal {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #666;
+            font-size: 18px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-btn-minimal::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.1);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .social-btn-minimal:hover {
+            transform: translateY(-3px) scale(1.1);
+            color: white;
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .social-btn-minimal:hover::before {
+            opacity: 1;
+        }
+
+        .social-btn-minimal.facebook:hover {
+            background: #1877f2;
+            box-shadow: 0 8px 25px rgba(24, 119, 242, 0.3);
+            border-color: #1877f2;
+        }
+
+        .social-btn-minimal.instagram:hover {
+            background: linear-gradient(135deg, #e4405f 0%, #fd1d1d 50%, #fcb045 100%);
+            box-shadow: 0 8px 25px rgba(228, 64, 95, 0.3);
+            border-color: #e4405f;
+        }
+
+        .social-btn-minimal.tiktok:hover {
+            background: #000000;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            border-color: #000000;
+        }
+
+        .social-btn-minimal.tripadvisor:hover {
+            background: #00af87;
+            box-shadow: 0 8px 25px rgba(0, 175, 135, 0.3);
+            border-color: #00af87;
+        }
+
+        /* Animación de entrada */
+        .social-btn-minimal {
+            animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .social-btn-minimal:nth-child(1) { animation-delay: 0.1s; }
+        .social-btn-minimal:nth-child(2) { animation-delay: 0.2s; }
+        .social-btn-minimal:nth-child(3) { animation-delay: 0.3s; }
+        .social-btn-minimal:nth-child(4) { animation-delay: 0.4s; }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .social-sidebar {
+                left: 20px;
+            }
+            
+            .social-btn-minimal {
+                width: 40px;
+                height: 40px;
+                font-size: 16px;
+            }
+            
+            .social-line.top-line,
+            .social-line.bottom-line {
+                height: 60px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .social-sidebar {
+                left: 15px;
+            }
+            
+            .social-btn-minimal {
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+            }
+            
+            .social-line.top-line,
+            .social-line.bottom-line {
+                height: 50px;
+            }
+            
+            .social-buttons-vertical {
+                gap: 15px;
+            }
+        }
+    </style>
+
+
+<!-- WhatsApp Floating Button -->
+<div class="whatsapp-float">
+    <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-btn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.516" fill="currentColor"/>
+        </svg>
+    </a>
+</div>
+
+<style>
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    animation: whatsappPulse 2s infinite;
+}
+
+.whatsapp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 25px rgba(37, 211, 102, 0.6);
+    background: linear-gradient(135deg, #128C7E, #25D366);
+}
+
+.whatsapp-btn svg {
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-btn:hover svg {
+    transform: scale(1.1);
+}
+
+@keyframes whatsappPulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .whatsapp-float {
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    .whatsapp-btn {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .whatsapp-btn svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .whatsapp-float {
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .whatsapp-btn {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .whatsapp-btn svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+</style>
     </body>
 </html>
