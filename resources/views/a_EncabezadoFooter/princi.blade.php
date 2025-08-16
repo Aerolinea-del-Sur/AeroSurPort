@@ -59,9 +59,9 @@
             </script>-->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-            <!--<link rel="stylesheet" id="frase-style-css" href="./style.css" media="all">-->
+            <!--<link rel="stylesheet" id="frase-style-css" href="./style.css" media="all">
             <link rel="stylesheet" href="{{ asset('public/css/foot.css') }}">
-            <link rel="stylesheet" href="{{ asset('resources/css/foot.css') }}">
+            <link rel="stylesheet" href="{{ asset('resources/css/foot.css') }}"> -->
             <link rel="stylesheet" href="{{ asset('css/foot.css') }}">
 <!--
 <style>
