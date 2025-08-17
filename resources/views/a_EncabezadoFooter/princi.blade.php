@@ -74,7 +74,8 @@
                 <!-- Pill Navigation -->
                 <nav class="nav">
                     
-                    <a href="/nosotros" class="nav-link pricing-link">Nosotros</a>
+                    <a href="/public_html/public_html/AeroSurPort/nosotros" class="nav-link pricing-link">Nosotros</a>
+
                     <a href="#" class="nav-link pricing-link">Flota Aerea</a>
                     <!-- Product Dropdown -->
                     <div class="nav-item">
