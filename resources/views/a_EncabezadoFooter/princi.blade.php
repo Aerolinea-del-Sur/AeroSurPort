@@ -321,15 +321,7 @@
                     </div>
                     <a href="#" class="nav-link pricing-link">Blog</a>
                 </nav>
-
-                <!-- Gradient Buttons -->
-                <div class="header-cta">
-                    <a href="#" class="btn-login">Login</a>
-                    <a href="#" class="btn-primary">
-                        <span>Contactanos</span>
-                    </a>
-                </div>
-
+                
                 <!-- Floating Mobile Button -->
                 <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
