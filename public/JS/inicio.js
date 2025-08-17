@@ -134,9 +134,6 @@
                 observer.observe(faqSection);
             }
         });
-</script>
-
-<script>
     // Slider de Certificaciones - Versión Simple
     class CertificationSlider {
         constructor() {
