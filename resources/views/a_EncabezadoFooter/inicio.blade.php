@@ -1,7 +1,7 @@
 @extends('a_EncabezadoFooter.princi')
 @section('content')
-    <script src="{{ asset('public/JS/inicio.js') }}"></script>
-    <link rel="stylesheet" href="{{ asset('public/css/inicio.css') }}">
+    <script src="{{ asset('JS/inicio.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('css/inicio.css') }}">
 
     <!-- Hero Content -->
     <section class="demo-content">
