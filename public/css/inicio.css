@@ -356,17 +356,31 @@
 }
 
 .faq-answer {
-    padding: 0 25px;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3s ease;
-    color: var(--pearl);
-    line-height: 1.6;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    opacity: 0;
+    padding: 0 30px;
 }
 
 .faq-item.active .faq-answer {
-    padding: 0 25px 25px;
-    max-height: 200px;
+    max-height: 500px;
+    opacity: 1;
+    padding: 0 30px 25px;
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.faq-answer p {
+    margin: 0;
+    color: var(--pearl);
+    line-height: 1.6;
+    font-size: 1rem;
+    transform: translateY(-10px);
+    transition: transform 0.3s ease 0.1s;
+}
+
+.faq-item.active .faq-answer p {
+    transform: translateY(0);
 }
 
 .faq-icon {
