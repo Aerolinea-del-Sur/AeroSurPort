@@ -1,3 +1,4 @@
+
     function toggleMobileMenu() {
             const mobileMenu = document.getElementById('mobileMenu');
             const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
@@ -134,6 +135,7 @@
                 observer.observe(faqSection);
             }
         });
+
     // Slider de Certificaciones - Versión Simple
     class CertificationSlider {
         constructor() {

@@ -3,7 +3,7 @@
     <script src="{{ asset('public/js/inicio.js') }}"></script>
     <link rel="stylesheet" href="{{ asset('public/css/inicio.css') }}">
     <link rel="stylesheet" href="{{ asset('public/css/general.css') }}">
-    <!-- Hero Content -->
+        <!-- Hero Content -->
     <section class="demo-content">
         <div class="demo-container">
             <h1>VUELA A TU <span class="highlight">MANERA</span></h1>
