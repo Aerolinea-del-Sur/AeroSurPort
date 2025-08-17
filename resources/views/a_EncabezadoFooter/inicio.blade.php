@@ -2,7 +2,6 @@
 @section('content')
     <script src="{{ asset('public/js/inicio.js') }}"></script>
     <link rel="stylesheet" href="{{ asset('public/css/inicio.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/css/general.css') }}">
         <!-- Hero Content -->
     <section class="demo-content">
         <div class="demo-container">

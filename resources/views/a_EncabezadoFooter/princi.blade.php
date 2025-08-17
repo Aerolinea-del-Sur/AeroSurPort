@@ -59,14 +59,10 @@
             </script>-->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-            <!--<link rel="stylesheet" id="frase-style-css" href="./style.css" media="all">
-            <link rel="stylesheet" href="{{ asset('public/css/1.css') }}">-->
         <!-- CSS Separados -->
             <link rel="stylesheet" href="{{ asset('public/css/general.css') }}">
             <link rel="stylesheet" href="{{ asset('public/css/header.css') }}">
             <link rel="stylesheet" href="{{ asset('public/css/footer.css') }}">
-            <link rel="stylesheet" href="{{ asset('public/css/inicio.css') }}">
-            <link rel="stylesheet" href="{{ asset('public/js/inicio.js') }}">
     </head>
     <body>
     <!-- Encabezado -->
