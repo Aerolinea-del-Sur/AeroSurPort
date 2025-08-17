@@ -69,7 +69,7 @@
         <header class="header">
             <div class="header-container">
                 <!-- Logo -->
-                <a href="/" class="logo">Aerolineas del Sur</a>
+                <a href="/public_html/public_html/AeroSurPort/inicio" class="logo">Aerolineas del Sur</a>
 
                 <!-- Pill Navigation -->
                 <nav class="nav">
