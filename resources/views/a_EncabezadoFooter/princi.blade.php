@@ -9,17 +9,22 @@
             <meta name="keywords" content="" />
             <meta name="author" content="" />
         <!-- CONEXION A TIPOGRAFIAS -->
-            <!-- Playfair Display Preconexión para fuentes de Google (mejora velocidad de carga) -->
+            <!-- CONEXION A TIPOGRAFIAS -->
+            <!-- Preconexión para fuentes de Google (mejora velocidad de carga) -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <!-- Precarga de ambas fuentes (Google + local) -->
-            <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
-            <link rel="preload" as="font" href="/fonts/playfair-display.woff2" type="font/woff2" crossorigin>
+            <!-- Precarga de fuentes -->
+            <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap">
+            <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+            
             <!-- Carga el CSS de fuentes de forma no bloqueante -->
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" media="print" onload="this.media='all'">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+            
             <!-- Fallback para navegadores sin JavaScript -->
             <noscript>
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
             </noscript>
         <!-- CONEXION A ESTILOS 
             <link rel="stylesheet" href="/css/princi.css">
