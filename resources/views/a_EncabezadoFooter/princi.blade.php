@@ -65,6 +65,8 @@
             <link rel="stylesheet" href="{{ asset('public/css/general.css') }}">
             <link rel="stylesheet" href="{{ asset('public/css/header.css') }}">
             <link rel="stylesheet" href="{{ asset('public/css/footer.css') }}">
+            <link rel="stylesheet" href="{{ asset('public/css/inicio.css') }}">
+            <link rel="stylesheet" href="{{ asset('public/js/inicio.js') }}">
     </head>
     <body>
     <!-- Encabezado -->
