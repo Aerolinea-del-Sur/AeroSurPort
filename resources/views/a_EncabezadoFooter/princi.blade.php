@@ -76,13 +76,11 @@
         <header class="header">
             <div class="header-container">
                 <!-- Logo -->
-                <a href="/public_html/public_html/AeroSurPort/a_EncabezadoFooter/princi" class="logo">Aerolineas del Sur</a>
-
-
+                <a href="/public_html/public_html/AeroSurPort/princi" class="logo">Aerolineas del Sur</a>
                 <!-- Pill Navigation -->
                 <nav class="nav">
                     
-                    <a href="/public_html/public_html/AeroSurPort/b_nosotros/nosotros" class="nav-link pricing-link">Nosotros</a>
+                    <a href="/public_html/public_html/AeroSurPort/nosotros" class="nav-link pricing-link">Nosotros</a>
                     <a href="/public_html/public_html/AeroSurPort/flota" class="nav-link pricing-link">Flota Aerea</a>
 
                     <!-- Product Dropdown -->
@@ -328,12 +326,12 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="nav-link pricing-link">Blog</a>
+                    <a href="/public_html/public_html/AeroSurPort/blog" class="nav-link pricing-link">Blog</a>
                 </nav>
 
                 <!-- Gradient Buttons -->
                 <div class="header-cta">
-                    <a href="/public_html/public_html/AeroSurPort/g_contactos/contacto" class="btn-primary">
+                    <a href="/public_html/public_html/AeroSurPort/contacto" class="btn-primary">
 
                         <span>Contactanos</span>
                     </a>
@@ -352,14 +350,13 @@
             <!-- Floating Mobile Menu -->
             <div class="mobile-menu" id="mobileMenu">
                 <nav class="mobile-nav">
-                    <a href="/public_html/public_html/AeroSurPort/b_nosotros/nosotros" class="mobile-nav-link">Nosotros</a>
-                    <a href="#" class="mobile-nav-link">Flota Aerea</a>
-                    <a href="#" class="mobile-nav-link">Servicio</a>
-                    <a href="#" class="mobile-nav-link">Agencia</a>
-                    <a href="#" class="mobile-nav-link">Blog</a>
-
+                    <a href="/public_html/public_html/AeroSurPort/nosotros" class="mobile-nav-link">Nosotros</a>
+                    <a href="/public_html/public_html/AeroSurPort/flota" class="mobile-nav-link">Flota Aerea</a>
+                    <a href="/public_html/public_html/AeroSurPort/servicio" class="mobile-nav-link">Servicio</a>
+                    <a href="/public_html/public_html/AeroSurPort/agencia" class="mobile-nav-link">Agencia</a>
+                    <a href="/public_html/public_html/AeroSurPort/blog" class="mobile-nav-link">Blog</a>
                     <div class="mobile-cta">
-                        <a href="/public_html/public_html/AeroSurPort/g_contactos/contacto" class="mobile-btn mobile-btn-primary">Contact</a>
+                        <a href="/public_html/public_html/AeroSurPort/contacto" class="mobile-btn mobile-btn-primary">Contact</a>
                     </div>
                 </nav>
             </div>
