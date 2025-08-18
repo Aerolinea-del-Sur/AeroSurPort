@@ -76,14 +76,15 @@
         <header class="header">
             <div class="header-container">
                 <!-- Logo -->
-                <a href="/public_html/public_html/AeroSurPort/" class="logo">Aerolineas del Sur</a>
+                <a href="/public_html/public_html/AeroSurPort/a_EncabezadoFooter/princi" class="logo">Aerolineas del Sur</a>
+
 
                 <!-- Pill Navigation -->
                 <nav class="nav">
                     
-                    <a href="/public_html/public_html/AeroSurPort/nosotros" class="nav-link pricing-link">Nosotros</a>
+                    <a href="/public_html/public_html/AeroSurPort/b_nosotros/nosotros" class="nav-link pricing-link">Nosotros</a>
+                    <a href="/public_html/public_html/AeroSurPort/flota" class="nav-link pricing-link">Flota Aerea</a>
 
-                    <a href="#" class="nav-link pricing-link">Flota Aerea</a>
                     <!-- Product Dropdown -->
                     <div class="nav-item">
                         <div class="nav-link">
