@@ -3,11 +3,11 @@
 use Illuminate\Support\Facades\Route;
 
 // Página principal
-Route::get('/public_html/public_html/AeroSurPort/a_EncabezadoFooter/princi', function () {
+Route::get('/a_EncabezadoFooter/princi', function () {
     return view('a_EncabezadoFooter.princi');
 })->name('home');
 // Página principal
-Route::get('/public_html/public_html/AeroSurPort/a_EncabezadoFooter/inicio', function () {
+Route::get('/public_html/public_html/AeroSurPort/', function () {
     return view('a_EncabezadoFooter.inicio');
 })->name('inicio');
 
