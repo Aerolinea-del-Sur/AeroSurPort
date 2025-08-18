@@ -332,7 +332,8 @@
 
                 <!-- Gradient Buttons -->
                 <div class="header-cta">
-                    <a href="#" class="btn-primary">
+                    <a href="/public_html/public_html/AeroSurPort/g_contactos/contacto" class="btn-primary">
+
                         <span>Contactanos</span>
                     </a>
                 </div>
@@ -350,14 +351,14 @@
             <!-- Floating Mobile Menu -->
             <div class="mobile-menu" id="mobileMenu">
                 <nav class="mobile-nav">
-                    <a href="#" class="mobile-nav-link">Nosotros</a>
+                    <a href="/public_html/public_html/AeroSurPort/b_nosotros/nosotros" class="mobile-nav-link">Nosotros</a>
                     <a href="#" class="mobile-nav-link">Flota Aerea</a>
                     <a href="#" class="mobile-nav-link">Servicio</a>
                     <a href="#" class="mobile-nav-link">Agencia</a>
                     <a href="#" class="mobile-nav-link">Blog</a>
 
                     <div class="mobile-cta">
-                        <a href="#" class="mobile-btn mobile-btn-primary">Contact</a>
+                        <a href="/public_html/public_html/AeroSurPort/g_contactos/contacto" class="mobile-btn mobile-btn-primary">Contact</a>
                     </div>
                 </nav>
             </div>
